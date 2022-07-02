@@ -3,8 +3,7 @@
 1.Download package
  command line: npm i
 
-
-16
+```
 The following is an over simplified example of using HOC with functional components.
 
 The functional component to be "wrapped":
@@ -38,3 +37,5 @@ export default withClasses;
 The component can be used in a different component like so.
 
 <ToBeWrappedByHOC/>
+
+```
