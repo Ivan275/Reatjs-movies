@@ -26,10 +26,10 @@ export default withClasses(ToBeWrappedByHOC, "myClassName");
 ```
 import React from 'react'
 
-const withClasses = (WrappedComponent, classes) => {
+const withClasses = (Component, classes) => {
 return (props) => (
     <div className={classes}>
-        <WrappedComponent {...props} />
+        <Component {...props} />
     </div>
        );
 };
