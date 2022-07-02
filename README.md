@@ -3,11 +3,11 @@
 1.Download package
  command line: npm i
 
+
+# The following is an over simplified example of using HOC with functional components.
+
+* The functional component to be "wrapped":
 ```
-The following is an over simplified example of using HOC with functional components.
-
-The functional component to be "wrapped":
-
 import React from 'react'
 import withClasses from '../withClasses'
 
@@ -20,10 +20,11 @@ return (
 }
 
 export default withClasses(ToBeWrappedByHOC, "myClassName");
-The Higher Order Component:
+```
 
+* The Higher Order Component:
+```
 import React from 'react'
-
 
 const withClasses = (WrappedComponent, classes) => {
 return (props) => (
@@ -34,8 +35,9 @@ return (props) => (
 };
 
 export default withClasses;
-The component can be used in a different component like so.
-
+```
+* The component can be used in a different component like so.
+```
 <ToBeWrappedByHOC/>
 
 ```
