@@ -42,7 +42,7 @@ export default withClasses;
 
 ```
 
-lift up setstate to parent
+# lift up setstate to parent
 
 ```
 function Parent() {
