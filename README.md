@@ -66,7 +66,7 @@ function MyInput(props) {
 }
 
 ```
-Javascript Map table example
+# Javascript Map table example
 
 ```
 import React, { Fragment } from "react";
