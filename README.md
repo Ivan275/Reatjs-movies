@@ -95,3 +95,6 @@ import React, { Fragment } from "react";
     </tbody>
 
 ```
+# Map, Reduce, and filter function example
+
+https://javascript.plainenglish.io/javascript-array-for-interviews-filter-map-reduce-and-isarray-8ca4e93986a7
